@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADA Student Feedback</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div id="MainContainer">
+            <h1 id = "Title"><span id = "ada">ADA</span> Students feedback</h1>
+            <div id = "Container">
+                <div id="sidebar">
+                    <img src="res/uncleSam.png" width="100%">
+                    <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+                    <p>Fill this form if you : </p>
+                    <ul>
+                        <li><p>Find an error in the content or the quizzes</p></li>
+                        <li><p>Have a feedback about instructors or the experience</p></li>
+                        <li><p>Have a suggestion on how to make the course better</p></li>
+                    </ul>
+                </div><div id="mainForm">
+                    <h3>Email Us : </h3>
+                    <form>
+                        <div class = "form-group">
+                            <label>Name : </label><br>
+                            <input type="text" class="form-control" placeholder="Name">
+                            <label>Track : </label>
+                            <select>
+                                <option>Web</option>
+                                <option>Game</option>
+                                <option>AI</option>
+                            </select>
+                        </div>
+                        <div class = "form-group">
+                            <label>Slide Name (or object) : </label><br>
+                            <input required="true" type="text" class="form-control" placeholder="Slide Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Message : </label><br>
+                            <textarea required="true" class="form-control"></textarea>
+                        </div>
+                        <center>
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </center>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
